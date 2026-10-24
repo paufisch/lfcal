@@ -1,0 +1,2 @@
+system,n_iters,score_at,q_x,continuation,step_tol,max_chunks,n_eff_u,n_eff_x,n_points,n_eff_kappa,n_eff_sigma_x
+lorenz96,5,midpoints,2,True,0.001,6,26.300084622764228,48.13999003104925,200,32,21544346.900318787

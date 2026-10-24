@@ -1,0 +1,2 @@
+system,n_iters,score_at,q_x,continuation,step_tol,max_chunks,n_eff_u,n_eff_x,n_points,n_eff_kappa,n_eff_sigma_x
+duffing,5,midpoints,3,True,0.001,6,32.0,32.0,32,32,0.22590885095348665
