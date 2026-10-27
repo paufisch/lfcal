@@ -3,6 +3,7 @@ name = "lfcal"
 version = "0.1.0"
 description = "Calibrated latent force inference with probabilistic ODE solvers: the algorithm and the code of 'Stable and Calibrated Latent Force ODE Filters'."
 readme = "README.md"
+authors = [{ name = "Paul Fischer" }]
 license = "MIT"
 license-files = ["LICENSE"]
 requires-python = ">=3.13"
@@ -18,6 +19,10 @@ dependencies = [
     "ode-filters==0.8.2",
     "ml-dtypes==0.5.4",
 ]
+
+[project.urls]
+Paper = "https://arxiv.org/abs/2610.33939"
+Repository = "https://github.com/paufisch/lfcal"
 
 [dependency-groups]
 dev = ["coverage>=7", "pytest>=8"]

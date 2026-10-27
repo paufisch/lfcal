@@ -3,10 +3,10 @@
 A fit is wrong when its force error exceeds `benchmark.WRONG` times the best method's on its dataset. The
 figures, by their name in `FIGURES`:
 
-  failures_by_method    per method with several wrong fits on the 60 datasets of `objectives`, those fits, one
-                        column each (`failures_by_method_{method}.pdf`), and the methods with a single wrong fit
-                        together (`failures_by_method_singles.pdf`)
-  robustness_examples   per condition of `robustness`, a dataset on which every method works
+  failures_by_method    Figs. A.1-A.3: per method with several wrong fits on the 60 datasets of `objectives`,
+                        those fits, one column each (`failures_by_method_{method}.pdf`), and the methods with a
+                        single wrong fit together (`failures_by_method_singles.pdf`)
+  robustness_examples   Fig. A.5: per condition of `robustness`, a dataset on which every method works
 
 The figures draw recorded posteriors only. `--compute` fits every posterior they need that is not recorded.
 Unlike the other scripts it takes no systems: its jobs follow from the recorded results of `objectives` and

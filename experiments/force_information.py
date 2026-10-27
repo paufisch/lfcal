@@ -1,4 +1,4 @@
-"""Fig. `fig:force-information`: the force error and the data's information about the force given the ODE,
+"""Figs. 3 and D.2 of the paper: the force error and the data's information about the force given the ODE,
 `I(U; Y | Z)`, against sigma_x^2, one line per grid density kappa = 2 ... 128.
 
 Per system and kappa, with `theta_u` at the truth and scored at the observation times, every sigma_x of the

@@ -1,6 +1,6 @@
 # lfcal: calibrated latent force inference with probabilistic ODE solvers
 
-Code for the paper *Stable and Calibrated Latent Force ODE Filters* by Paul Fischer, Jonathan Schmidt and Philipp Hennig (arXiv link to follow).
+Code for the paper [*Stable and Calibrated Latent Force ODE Filters*](https://arxiv.org/abs/2610.33939) by Paul Fischer, Jonathan Schmidt and Philipp Hennig.
 
 `lfcal` estimates an unknown force that drives an ODE, together with the state, from noisy observations. It is an ODE filter with a Gauss–Markov prior on the force, whose state diffusion is chosen so that the force, not the solver's numerical slack, explains the data. The paper's benchmark is in `lfcal.paper`, and `experiments/` has one script per study.
 
@@ -69,7 +69,7 @@ MIT, see `LICENSE`.
 @article{fischer2026stable,
   title   = {Stable and Calibrated Latent Force {ODE} Filters},
   author  = {Fischer, Paul and Schmidt, Jonathan and Hennig, Philipp},
-  journal = {arXiv preprint arXiv:XXXX.XXXXX},
+  journal = {arXiv preprint arXiv:2610.33939},
   year    = {2026},
 }
 ```

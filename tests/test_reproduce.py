@@ -97,7 +97,7 @@ def test_force_information_duffing_kappa_2(tmp_path):
 
 
 # ---------------------------------------------------------------- the comparison and its offshoots
-# Whole entries of the comparison (the data of Fig. `fig:comparison`) and of the robustness study, recomputed
+# Whole entries of the comparison (the data of Fig. 4) and of the robustness study, recomputed
 # through the same `benchmark.run_method`, record and scoring as every method's: the algorithm with two
 # criteria, and the classical LFM with and without its process noise.
 def result(entry):

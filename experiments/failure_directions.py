@@ -1,4 +1,4 @@
-"""Fig. `fig:failure-directions`: the two failure directions of the state diffusion sigma_x^2.
+"""Fig. 1 of the paper: the two failure directions of the state diffusion sigma_x^2.
 
 Duffing with its position observed (K = 32) on the grid kappa = 32, with `theta_u` at the truth, after
 `N_ITERS` IEKS iterations. Three diffusions make the three columns: the maximiser of `I(U; Y | Z)` that

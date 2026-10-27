@@ -1,4 +1,4 @@
-"""Fig. `fig:comparison`: the sigma_x^2 objectives compared over many datasets, the whole algorithm at one design.
+"""Fig. 4 of the paper: the sigma_x^2 objectives compared over many datasets, the whole algorithm at one design.
 
 On each benchmark system at its K0 and draws 0-19 (seeds and nested data of `benchmark.system_kw`), every method
 of `benchmark.COMPARED` reports its fit: the algorithm with the criterion ell_OBS (`obs`), I (`mi`), D

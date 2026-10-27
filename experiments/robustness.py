@@ -1,4 +1,4 @@
-"""Fig. `fig:robustness`: the sigma_x^2 objectives beyond the benchmark of `objectives`.
+"""Fig. A.4 of the paper: the sigma_x^2 objectives beyond the benchmark of `objectives`.
 
 Two sets of datasets, each run with the methods of the comparison at the system's K0 (the whole algorithm):
 

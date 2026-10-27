@@ -1,4 +1,4 @@
-"""Fig. `fig:sigma-x-sweep`: force and state error and chi^2 of the IEKS against the state diffusion sigma_x^2.
+"""Fig. D.1 of the paper: force and state error and chi^2 of the IEKS against the state diffusion sigma_x^2.
 
 One line per grid density kappa = 2 ... 128, with `theta_u` at the truth, scored at the held-out midpoints
 between the observations. The IEKS re-linearises the residual row at its smoothed mean, `N_ITERS` iterations

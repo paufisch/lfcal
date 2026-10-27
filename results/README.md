@@ -12,4 +12,4 @@ Scores and settings are CSV tables with one row per record, time series `.npz` a
 | `objectives/{system}_s{draw}_{method}.csv` | one method's fit at K0 (`obs`, `mi`, `di`, `fenrir_ieks`, `classical_rk4`), with the grid it reports |
 | `posteriors/{system}_s{draw}_{method}.npz` | mean and sd of force and scored state on the method's grid, with truth and data: the comparison's wrong fits and their references |
 | `robustness/{system}_{kind}_s{draw}_{method}.csv` | one method's fit at K0 with a truth force of `kind` (`matern32`, `sine`, `step`; `matern` on SIR) |
-| `failures_robustness/` | posteriors, as in `posteriors/`, of the examples of `fig:robustness-examples` |
+| `failures_robustness/` | posteriors, as in `posteriors/`, of the examples of Fig. A.5 of the paper |
